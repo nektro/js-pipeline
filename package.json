@@ -1,6 +1,6 @@
 {
   "name": "pipeline-operator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Functional implementation of the pipeline operator |>",
   "main": "index.js",
   "scripts": {
