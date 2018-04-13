@@ -8,7 +8,7 @@ pipeline-operator : A functional implementation of the [pipeline operator](https
 
 on the web:
 ```html
-<script src="path/to/pipeline-operator/index.js"></script>
+<script src="https://unpkg.com/pipeline-operator/index.js"></script>
 ```
 
 via npm:
