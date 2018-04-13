@@ -12,6 +12,11 @@ on the web:
 ```
 
 via npm:
+> NOTE: Module support in Node still is experimental.  
+> Node 8 does not support it.  
+> Node 9 requires a flag and special file extension.  
+> See the [Node API Docs](https://nodejs.org/api/esm.html) for up-to-date information.
+
 ```bash
 $ npm install --save pipeline-operator
 ```
