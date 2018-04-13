@@ -1,6 +1,6 @@
 # js-pipeline
 
-pipeline-operator : A functional implementation of the [pipeline operator]()
+pipeline-operator : A functional implementation of the [pipeline operator](https://github.com/tc39/proposal-pipeline-operator)
 
 [![NPM](https://nodei.co/npm/pipeline-operator.png)](https://nodei.co/npm/pipeline-operator/)
 
