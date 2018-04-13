@@ -1,10 +1,5 @@
 //
 'use strict';
 //
-export default function pipeline(input, ...methods) {
-    const next = methods.shift();
-    if (typeof next !== 'function') {
-        return input;
-    }
-    return pipeline(next(input), ...methods);
-}
+const pipeline = (input, ...methods) => methods.reduce((ac,cv) => cv(ac), input);
+export default pipeline;
